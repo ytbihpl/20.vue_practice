@@ -1,0 +1,32 @@
+1.前端项目初始化
+	1.1.安装Vue脚手架
+		npm install -g @vue/cli	
+	1.2.通过Vue脚手架创建项目
+		vue ui
+	1.3.配置Vue路由		
+	1.4.配置Element-UI组件库
+		1.点击插件->添加插件，进入插件查询面板
+		2.搜索vue-cli-plugin-element并安装
+		3.配置插件，实现按需导入，从而减少打包后项目的体积
+	1.5.配置axios库
+		1.安装依赖
+		2.搜索axios安装
+		3.搜索开发依赖less_loader@7.3.0
+		4.搜索开发依赖less@4.1.2
+	1.6.初始化git 远程仓库
+	1.7.将本地项目托管到Github或码云中
+2.后台项目的环境安装配置
+	2.1.安装MySQL数据库
+	2.2.安装Node.js环境
+	2.3.配置项目相关环境
+	2.4.启动项目
+	2.5.使用Postman测试后台项目接口是否正常
+3.登录、退出功能
+	1.通过Element-UI组件实现布局
+	el-form
+	el-form-item
+	el-input
+	el-button
+	字体图标
+4.用pm2来管理服务器
+	npm install pm2 -g
